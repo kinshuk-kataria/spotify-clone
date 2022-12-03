@@ -1,0 +1,34 @@
+/** @format */
+
+.header {
+  display: flex;
+
+  margin-bottom: 20px;
+  background-color: #000080;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.header__icon {
+  margin: 0 10px;
+  background-color: black;
+  padding: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  background-color: #040404;
+  border-radius: 15px;
+  padding: 3px;
+}
+.header__right > h4 {
+  margin: auto 10px;
+}

@@ -1,0 +1,51 @@
+/** @format */
+
+.body {
+  flex: 8.4;
+  background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  height: 100vh;
+  color: white;
+  overflow-y: overlay;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
+.body__info {
+  margin-left: 25px;
+  display: flex;
+}
+.body__info > img {
+  height: 17vw;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 1);
+}
+.body__infoText {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.body__infoText h1 {
+  font-size: 6rem;
+}
+.body__infoText strong {
+  margin-top: 25px;
+}
+.body__infoText p {
+  color: grey;
+}
+.body__icons {
+  display: flex;
+  align-items: center;
+}
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+.body_shuffle {
+  font-size: 65px !important;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.body_shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
