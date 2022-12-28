@@ -5,13 +5,12 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
-  //Remove after finished developing
-  //token: null,
+  token: null,
   playlists: null,
   discover_weekly: null
 }
 const reducer = (state, action) => {
-  console.log(action)
+  
   //Action->type,[payload]
   switch (action.type) {
     case 'SET_USER':

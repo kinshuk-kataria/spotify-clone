@@ -26,6 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__center">
+        
         <ShuffleIcon className="footer__grey" />
         <SkipPreviousIcon className="footer__icon" />
         <PlayCircleFilledIcon fontSize="large" className="footer__icon" />
